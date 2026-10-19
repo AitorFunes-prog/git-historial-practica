@@ -4,10 +4,9 @@ def sumar(a, b):
 def restar(a, b):
     return a - b
 
-# Error conceptual: debería ser 'a * b'
 def multiplicar(a, b):
-    return a + b 
+    return a * b
 
 print(sumar(5, 3))
 print(restar(10, 4))
-print(multiplicar(2, 6)) # Devolverá 8 en lugar de 12
+print(multiplicar(2, 6))
